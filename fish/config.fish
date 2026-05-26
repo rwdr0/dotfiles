@@ -13,6 +13,8 @@ set -gx PNPM_HOME "$HOME/.local/share/pnpm"
 starship init fish | source
 zoxide init fish | source
 
+alias claude-personal="CLAUDE_CONFIG_DIR=~/.claude-personal claude"
+alias claude-lab3="CLAUDE_CONFIG_DIR=~/.claude-lab3 claude"
 alias fishconfig="nvim ~/.config/fish/config.fish"
 alias vim="nvim"
 alias cal="cal --sunday"
